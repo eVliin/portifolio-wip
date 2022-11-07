@@ -32,7 +32,7 @@ export default function App() {
     });
   }, []);
 
-  toggleTheme = () => {
+  const toggleTheme = () => {
     setState({
       theme: state.theme === themes.dark ? themes.light : themes.dark
     });
